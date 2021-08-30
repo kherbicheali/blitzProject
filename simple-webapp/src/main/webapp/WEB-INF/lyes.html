@@ -1,0 +1,98 @@
+<html>
+	
+	<head>
+  	<meta charset="utf-8">
+  	<title> lyes's page </title>
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	
+  	<!--**************************JQuery JS*************************************-->
+			<script
+				src="https://code.jquery.com/jquery-3.6.0.min.js"
+				integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+				crossorigin="anonymous">
+			</script >
+				
+		<!--**************************END of JQuery JS*************************************-->
+		
+		<!--**************************DataTable*************************************-->
+			<!--script
+				src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js">
+			</script-->
+				
+		<!--**************************END of DataTable************************************-->
+  	
+	</head>
+	
+	<body>	
+		 <script src ="jsFiles/lyes.js"></script>
+		 
+			<table id=tanks class="table table-dark table-striped table-bordered">
+			
+		  	<thead >
+					<tr>
+						<th scope="col" class='text-center'>Label</th>
+						<th scope="col" class='text-center'>DPM</th>
+						<th scope="col" class='text-center'>Speed</th>
+						<th scope="col"class='text-center'>Frontal Armor</th>
+						<th scope="col"class='text-center'>Health Points</th>
+						<th scope="col"class='text-center'>Gun Depression</th>
+						<th scope="col"class='text-center'>Silver Alpha</th>
+						<th scope="col"class='text-center'>Gold Alpha</th>
+						<th scope="col"class='text-center'>HE Alpha</th>
+						<th scope="col" class="text-center">Action</th>
+					</tr>
+					<tr>
+							<th scope="col" class='text-center'>
+								<input type="text" id="Label" class="form-control" placeholder="enter new label...">
+							</th>
+							<th scope="col" class='text-center'>
+								<input type="number" id="DPM"  class="form-control" placeholder="enter new DPM...">
+							</th>
+							<th scope="col" class='text-center'>
+								<input type="number" id="Speed"  class="form-control" placeholder="enter new Speed...">
+							</th>
+							<th scope="col"class='text-center'>
+								<input type="number" id="Frontal Armor"  class="form-control" placeholder="enter new Frontal Armor...">
+							</th>
+							<th scope="col"class='text-center'>
+								<input type="number" id="Health Points"  class="form-control" placeholder="enter new Health Points...">
+							</th>
+							<th scope="col"class='text-center'>
+								<input type="number" id="Gun Depression"  class="form-control" placeholder="enter new Gun Depression...">
+							</th>
+							<th scope="col"class='text-center'>
+								<input type="number" id="Silver Alpha" class="form-control" placeholder="enter new Silver Alpha...">
+							</th>
+							<th scope="col"class='text-center'>
+								<input type="number" id="Gold Alpha"  class="form-control" placeholder="enter new Gold Alpha...">
+							</th>
+							<th scope="col"class='text-center'>
+								<input type="number" id="HE Alpha" class="form-control" placeholder="enter new HE Alpha...">
+							</th>
+							<th scope="col" class="text-center"> 
+								<button type= "submit" class="btn btn-success" onclick="saveTank()">Add</button> 
+							</th>
+					</tr>
+				</thead>
+				
+		  	<tbody id=last>
+		     
+		  	</tbody>
+		  	
+			</table>
+			
+			<!--**************************Bootstrap CSS*************************************-->
+			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+			<!--***************************END of Bootstrap CSS************************************-->
+			
+			<!--**************************Bootstrap/Popper JS*************************************-->
+			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+			<!--script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script-->
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+			<!--**************************END of Bootstrap/Popper JS*************************************-->	
+			
+			
+			
+	</body>
+</html>
